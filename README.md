@@ -11,13 +11,15 @@ A handmade experimental build of a ribbon microphone using basic components and 
 * **Aluminum foil folded accordion-style** (total length unfolded ~23 cm, width ~2 cm, estimated thickness <15 µm)
 * The foil is electrically connected to two **copper wires**, mechanically secured to the main steel body
 
-![Master Node Flow Diagram](mic.jpg)
+![DIY Ribbon Microphone](mic.jpg)
 
 ---
 
 ## 📏 Electrical Measurements
 
-* Measured resistance across the ribbon (after improving contacts): Around **4 Ω** (professional microphones are <1 Ω. A reasonable value for a DIY ribbon, considering contact quality, folding, and materials!)
+Measured resistance across the ribbon: Around **4 Ω** 
+
+NOTE: Professional microphones are <1 Ω. This one has a reasonable value for a DIY ribbon, considering contact quality, folding, and materials!
 
 ---
 
@@ -29,26 +31,28 @@ A handmade experimental build of a ribbon microphone using basic components and 
   * Secondary: 50 Ω (connected to the preamp)
 * Purpose: to increase the output signal voltage and help with impedance matching
 
-NOTE! A ratio of 1:35 might be the best for this, but step-up transformers are usually very expensive!
+NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers are usually very expensive!
 
 ---
 
 ## 🔊 Preamplifier
 
-* Simple transistor preamp (BC547), originally designed for 500 Ω playback heads (built from a Philips scheme)
+* Simple transistor preamp (BC547), originally designed for 500 Ω playback heads (built from a Philips scheme from 1980)
 * Single-ended (unbalanced) input: connected to the secondary of the transformer
 
   * **One transformer wire → preamp input** (via 1.5 µF capacitor)
   * **Other transformer wire → ground**
 * Output taken after the final DC-blocking capacitor
 
-![Master Node Flow Diagram](preamp.jpg)
+![Preamplifier](preamp.jpg)
 
 ---
 
 ## 🔌 Power Supply
 
-9V battery
+A **stable** power source from 7,5V to 12V / 9V battery (as I did)
+
+NOTE: Do not use any square wave generator even if might be working for other applications. It would generate lots of disturbs and you get a very dirty output.
 
 ---
 
