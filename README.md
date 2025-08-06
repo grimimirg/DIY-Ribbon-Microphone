@@ -10,6 +10,7 @@ A handmade experimental build of a ribbon microphone using basic components and 
 * **Neodymium magnets** (6 per side) fixed inside the open faces of the profile
 * **Aluminum foil folded accordion-style** (total length unfolded ~23 cm, width ~2 cm, estimated thickness <15 µm)
 * The foil is electrically connected to two **copper wires**, mechanically secured to the main steel body
+* The C-shaped steel profile is completely electrically insulated from the bracket that supports it
 
 ![DIY Ribbon Microphone](mic.jpg)
 
@@ -46,7 +47,7 @@ NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers
 
 ![Preamplifier](preamp.jpg)
 
-NOTE: This preamplifier is designed for a tape head with a 500 Ω impedance, which is far higher than what’s needed for this particular application. However, it was the only preamplifier circuit I could find in a book.
+NOTE: This preamplifier is designed for a tape head with a 500 Ω impedance, which is far higher than what’s needed for this particular application, therefore the output is rather low. However, it was the only preamplifier circuit I could find in a book.
 
 ---
 
