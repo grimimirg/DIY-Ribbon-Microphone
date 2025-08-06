@@ -37,7 +37,7 @@ NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers
 
 ## 🔊 Preamplifier
 
-* Simple transistor preamp (BC547), originally designed for 500 Ω playback heads (built from a Philips scheme from 1980)
+* Simple transistor preamp (BC547)
 * Single-ended (unbalanced) input: connected to the secondary of the transformer
 
   * **One transformer wire → preamp input** (via 1.5 µF capacitor)
@@ -45,6 +45,8 @@ NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers
 * Output taken after the final DC-blocking capacitor
 
 ![Preamplifier](preamp.jpg)
+
+NOTE: This preamplifier is designed for a tape head with a 500 Ω impedance, which is far higher than what’s needed for this particular application. However, it was the only preamplifier circuit I could find in a book.
 
 ---
 
@@ -66,16 +68,18 @@ NOTE: Do not use any square wave generator even if might be working for other ap
 * Initial mode: **DC coupling** (to observe potential offset)
 * Then switched to: **AC coupling** (to view audio waveform cleanly)
 
-NOTE: The outcome for both DC and AC was pretty much the same.
+NOTE: The outcome for both DC coupling and AC coupling was pretty much the same.
 
 ---
 
 ## 🧪 Future Improvements
 
-* Upgrade to a higher-ratio step-up transformer (e.g. 1:35)
-* Add electromagnetic shielding and a protective enclosure
+* Improve foil contacts on both copper wires by using Copper Tape
+* Upgrade to a higher-ratio step-up transformer (e.g. 1:35 ratio) for a "louder" output
+* Adapt the pre-amplifier input to match Step-Up transformer impedance
+* (optional) Add electromagnetic shielding and a protective enclosure
 * Attach to the microphone an XLR (Cannon) cable
-* Perform audio tests via sound card or USB interface
+* Perform audio tests via sound card
 
 ---
 
