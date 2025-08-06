@@ -52,7 +52,7 @@ NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers
 
 A **stable** power source from 7,5V to 12V / 9V battery (as I did)
 
-NOTE: Do not use any square wave generator even if might be working for other applications. It would generate lots of disturbs and you get a very dirty output.
+NOTE: Do not use any square wave generator even if might be working for other applications. It would generate lots of disturbance and you get a very dirty output.
 
 ---
 
@@ -81,7 +81,7 @@ NOTE: The outcome for both DC and AC was pretty much the same.
 
 ## 📚 Notes
 
-This project is useful for a better understand of:
+This project is useful for a better understanding of:
 
 * How ribbon microphones work
 * The relationship between mechanical vibration and electrical signal
