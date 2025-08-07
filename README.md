@@ -2,6 +2,8 @@
 
 A handmade experimental build of a ribbon microphone using basic components and salvaged materials. The project was developed as a learning exercise, with no expectations of professional audio quality, but with the goal of understanding the physical and electrical behavior of ribbon microphones.
 
+A detailed description on how I built it can be found in both [English](dyi_ribbon_microphone_how_i_built_it_en.pdf) and [Italian](dyi_ribbon_microphone_how_i_built_it_it.pdf)
+
 ---
 
 ## 🧱 Physical Structure
