@@ -10,7 +10,7 @@ A detailed description on how I built it can be found in both [English](dyi_ribb
 
 * **Steel C-channel profile** (~10 cm), mounted vertically on a **wooden base**
 * **Neodymium magnets** (6 per side) fixed inside the open faces of the profile
-* **Aluminum foil folded accordion-style** (total length unfolded ~23 cm, width ~2 cm, estimated thickness <15 µm)
+* **Aluminum foil folded accordion-style** (total length unfolded ~23 cm, width ~2 cm, estimated thickness <15 µm). Make sure it's stretched enough between copper wires
 * The foil is electrically connected to two **copper wires**, mechanically secured to the main steel body
 * The C-shaped steel profile is completely electrically insulated from the bracket that supports it
 
@@ -63,7 +63,7 @@ NOTE: Do not use any square wave generator even if might be working for other ap
 
 ## 📺 Oscilloscope
 
-* Oscilloscope used for system debugging: At least an Portable FNIRSI (which worked rather good)
+* Oscilloscope used for system debugging: At least a Portable FNIRSI (which worked rather good)
 * Connection:
 
   * Probe tip to preamp output
@@ -81,8 +81,7 @@ NOTE: The outcome for both DC coupling and AC coupling was pretty much the same.
 * Upgrade to a higher-ratio step-up transformer (e.g. 1:35 ratio) for a "louder" output
 * Adapt the pre-amplifier input to match Step-Up transformer impedance
 * (optional) Add electromagnetic shielding and a protective enclosure
-* Attach to the microphone an XLR (Cannon) cable
-* Perform audio tests via sound card
+* Attach to the microphone or preamp an XLR (Cannon) cable
 
 ---
 
