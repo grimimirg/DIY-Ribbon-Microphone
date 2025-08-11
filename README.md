@@ -14,15 +14,17 @@ A detailed description on how I built it can be found in both [English](dyi_ribb
 * The foil is electrically connected to two **copper wires**, mechanically secured to the main steel body
 * The C-shaped steel profile is completely electrically insulated from the bracket that supports it
 
-![DIY Ribbon Microphone](mic.jpg)
+![DIY Ribbon Microphone front](front.jpg)
+![DIY Ribbon Microphone side](side.jpg)
+![DIY Ribbon Microphone rear](rear.jpg)
 
 ---
 
 ## 📏 Electrical Measurements
 
-Measured resistance across the ribbon: Around **4 Ω** 
+Measured resistance across the ribbon: Around **0,1 Ω** 
 
-NOTE: Professional microphones are <1 Ω. This one has a reasonable value for a DIY ribbon, considering contact quality, folding, and materials!
+![DIY Ribbon Microphone resistance](resistance.jpg)
 
 ---
 
@@ -33,6 +35,8 @@ NOTE: Professional microphones are <1 Ω. This one has a reasonable value for a 
   * Primary: 25 Ω (connected to the ribbon)
   * Secondary: 50 Ω (connected to the preamp)
 * Purpose: to increase the output signal voltage and help with impedance matching
+
+![DIY Ribbon Microphone transformer](transformer.jpg)
 
 NOTE: A ratio of 1:35 might be the best for this thing, but step-up transformers are usually very expensive!
 
