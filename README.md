@@ -1,3 +1,17 @@
+> [!IMPORTANT]
+> ## This GitHub repository has reached its end of life
+>
+> Development has moved to my self-hosted Gitea instance, and further
+> improvements will only land there:
+>
+> ### 👉 https://git.grimilab.duckdns.org/andreagrimandi/DIY-Ribbon-Microphone
+>
+> This copy stays online for reference, but it is **no longer updated**, and
+> issues or pull requests opened here will not be picked up. Please switch to
+> the repository above to follow the project.
+
+---
+
 # 🎙️ DIY Ribbon Microphone
 
 A handmade experimental build of a ribbon microphone using basic components and salvaged materials. The project was developed as a learning exercise, with no expectations of professional audio quality, but with the goal of understanding the physical and electrical behavior of ribbon microphones.
